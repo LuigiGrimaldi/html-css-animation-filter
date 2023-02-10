@@ -74,10 +74,33 @@
     width: 500px;
 }
 
+.ex-6-img:hover {
+    filter: grayscale(100%);
+}
+
+.ex-7-img:hover {
+    filter: grayscale(100%);
+    transition: 3s;
+}
+
+.ex-8-img:hover {
+    border-radius: 5%;
+    filter: opacity(30%) invert(10);
+    transition: 3s;
+}
+
 .ex-9-img {
     margin: 50px 100px;
     width: 400px;
 }
+
+.ex-9-img:hover {
+    border-radius: 5%;
+    filter: opacity(30%) invert(10);
+    transform: scale(0.3);
+    transition: 3s;
+}
+
 
 .ex-10-icon {
     font-size: 60px;
